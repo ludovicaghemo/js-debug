@@ -84,3 +84,19 @@ console.log(dieselCars);
 
 console.log('Tutte le altre auto');
 console.log(otherCars);
+
+
+
+// Che cosa fa questo codice?
+// Il codice definisce un array di oggetti cars, ciascuno con un oggetto auto.
+//Il codice filtra le auto a benzina, le auto a diesel e tutte le altre auto in base al tipo di carburante. Infine, vengono stampati i risultati.
+
+// Sono presenti errori di sintassi?
+// Sì --> 
+//     a. Differenze di maiuscole/minuscole nel tipo di carburante (es. "Benzina" invece di "benzina", "Diesel" invece di "diesel").
+//     b. Operatore di assegnazione (=) invece di operatore di identità (===).
+//     c. Manca la virgola alla riga 59
+//     
+
+// Sono presenti errori logici?
+// Sì, c'è un errore logico nella funzione otherCars. L'auto non deve essere né a benzina né a diesel, quindi dovrebbe esserci && invece di ||
